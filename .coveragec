@@ -1,0 +1,2 @@
+[run]
+omit = django_mysql_fields/*/migrations/*
