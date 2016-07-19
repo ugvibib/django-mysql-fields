@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 
 setup(
     name='django_mysql_fields',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     license='BSD License',
     description='Useful Django fields for use with MySQL.',

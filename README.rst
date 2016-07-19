@@ -13,13 +13,14 @@ Requirements
 * Python 3.4, 3.5
 * Django 1.9.x
 * MySQL Community Server 5.6.x
-* Mysql Connector Python (Multiplay Fork) - https://github.com/multiplay/mysql-connector-python
+* MySQL Connector Python (Multiplay Fork) - https://github.com/multiplay/mysql-connector-python
 
 Quickstart
 ----------
 
-1. Install from source::
-    pip3 install -e git+https://github.com/multiplay/django-mysql-fields#egg=django-mysql-fields
+1. Install from pypi::
+
+    pip3 install django-mysql-fields
 
 2. Add "django_mysql_fields" to your INSTALLED_APPS settings like this::
 
