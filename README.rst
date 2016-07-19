@@ -22,14 +22,6 @@ Quickstart
 
     pip3 install django-mysql-fields
 
-2. Add "django_mysql_fields" to your INSTALLED_APPS settings like this::
-
-    INSTALLED_APPS = [
-        ...
-        'django_mysql_fields',
-    ]
-
-
 Fields
 ------
 
