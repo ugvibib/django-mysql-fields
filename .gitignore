@@ -68,6 +68,9 @@ bower_components/
 # virtualfish connect file
 .venv
 
+# virtualenv
+venv/
+
 # sass cache
 .sass-cache/
 
