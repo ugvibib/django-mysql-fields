@@ -11,7 +11,7 @@ Requirements
 ------------
 
 * Python 3.4, 3.5
-* Django 1.9.x
+* Django 1.9.x, 1.10.x
 * MySQL Community Server 5.6.x
 * MySQL Connector Python (Multiplay Fork) - https://github.com/multiplay/mysql-connector-python
 
