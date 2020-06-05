@@ -1,6 +1,6 @@
 apipkg==1.4
 coverage==4.2
-Django==1.11.28
+Django==1.11.29
 execnet==1.4.1
 flake8==3.0.4
 isort==4.2.5
