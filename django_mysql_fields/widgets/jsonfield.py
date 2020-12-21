@@ -7,7 +7,7 @@ class FormattedJsonWidget(widgets.Textarea):
     """
     Overrides JSONField form widget to display formatted JSON text.
     """
-    def render(self, name, value, attrs=None):
+    def render(self, name, value, attrs=None, renderer=None):
         value = json.dumps(json.loads(value), indent=2)
 
-        return super().render(name, value, attrs)
+        return super().render(name, value, attrs, renderer=None)
